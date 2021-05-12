@@ -1,1 +1,37 @@
-# 10-team-profile-generator
+# 10-OOP: Team Profile Generator
+
+[![License: GPL](https://img.shields.io/badge/License-GPL-blue)](https://www.gnu.org/licenses/licenses.html)
+
+## Description
+  Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. App incorporates built-in testing.
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Tests](#test)
+- [Demo](#demo)
+- [Questions](#questions)
+## Installation
+  Clone repo, run "npm install" from the root folder in your terminal.
+## Usage
+  Start app from root folder of your local repo clone in Terminal (bash/zsh) by entering "node index.js"
+## Contributing
+  Feel free to create your own branch and send commits for my review. If I like them, I'll incorporate.
+
+## License
+[![License: GPL](https://img.shields.io/badge/License-GPL-blue)](https://www.gnu.org/licenses/licenses.html)
+
+## Tests
+  Run "npm run test" in terminal. Ensure you are in the root folder of the cloned repo.
+
+## Demo
+  (link to video)
+  (animated gif)
+
+## Questions
+  Any Questions? Please contact me at one of the following for more information:
+
+  [Github](https://github.com/davidboerm)  
+  [LinkedIn](https://www.linkedin.com/in/davidboerm/)  
+  [davidboerm@gmail.com](mailto:davidboerm@gmail.com)
