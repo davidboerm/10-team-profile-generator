@@ -5,10 +5,10 @@
   "main": "index.js",
   "directories": {
     "lib": "lib",
-    "test": "tests"
+    "__tests__": "test"
   },
   "scripts": {
-    "test": "tests"
+    "test": "jest"
   },
   "repository": {
     "type": "git",

@@ -23,7 +23,7 @@
 [![License: GPL](https://img.shields.io/badge/License-GPL-blue)](https://www.gnu.org/licenses/licenses.html)
 
 ## Tests
-  Run "npm run test" in terminal. Ensure you are in the root folder of the cloned repo.
+  Run "npm run test" in Terminal. Ensure you are in the root folder of the cloned repo.
 
 ## Demo
   (link to video)

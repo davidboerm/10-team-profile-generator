@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+    font-family:'Courier New', Courier, monospace;
+  }
+  
+  body {
+    background-color: rgb(166, 195, 204);
+  }
+  header {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(148, 16, 16);
+    font-size:3rem;
+    margin-bottom: 10%;
+  }
+  
+  .card-header {
+    background-color: rgb(89, 101, 112);
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .card-header span {
+    font-size: 1.2rem;
+  }
+  
+  .card li {
+  font-size: 1rem;
+  }
