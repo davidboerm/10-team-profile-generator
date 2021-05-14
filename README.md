@@ -13,18 +13,15 @@
 - [Demo](#demo)
 - [Questions](#questions)
 ## Installation
-  Clone repo, run "npm install" from the root folder in your terminal.
+  Clone repo, run "npm install" from the root folder in your terminal. Start app from root folder of your local repo clone in Terminal (bash/zsh) by entering "node index.js"
 ## Usage
-  Start app from root folder of your local repo clone in Terminal (bash/zsh) by entering "node index.js"
+  
 ## Contributing
   Feel free to create your own branch and send commits for my review. If I like them, I'll incorporate.
-
 ## License
 [![License: GPL](https://img.shields.io/badge/License-GPL-blue)](https://www.gnu.org/licenses/licenses.html)
-
 ## Tests
   Run "npm run test" in Terminal. Ensure you are in the root folder of the cloned repo.
-
 ## Demo
   (link to video)
   (animated gif)
