@@ -23,7 +23,7 @@
 ## Tests
   Run "npm run test" in Terminal. Ensure you are in the root folder of the cloned repo.
 ## Demo
-- Video link:    
+- Video link: https://youtu.be/Z0pNq3ohi9g   
 - ![animated gif demo](./assets/demo.gif)
 
 ## Questions
