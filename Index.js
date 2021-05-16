@@ -15,11 +15,10 @@ let bodyHTML = ``;
 //Function to initialize prompts (starting with info about the manager)
 function managerPrompts() {
   inquirer
-    .prompt([
-      {
+    .prompt([{
         type: "input",
         name: "name",
-        message: "Please enter Manager name:",
+        message: "Please enter Team Manager's name:",
       },
       {
         type: "input",
@@ -54,32 +53,27 @@ function managerPrompts() {
 //Starts series prompts that ask for 'intern' or 'engineer'
 function memberPrompts() {
   inquirer
-    .prompt([
-      {
-        type: "list",
-        name: "prompt",
-        message: "Add another Employee?",
-        choices: ["Yes", "No"],
-      },
-    ])
+    .prompt([{
+      type: "list",
+      name: "prompt",
+      message: "Add another Employee?",
+      choices: ["Yes", "No"],
+    }, ])
     .then((data) => {
       //Starts prompts if user selects 'Yes'
       if (data.prompt === "Yes") {
         inquirer
-          .prompt([
-            {
-              type: "list",
-              name: "role",
-              message: "Choose Employee's ROLE:",
-              choices: ["Intern", "Engineer"],
-            },
-          ])
+          .prompt([{
+            type: "list",
+            name: "role",
+            message: "Choose Employee's ROLE:",
+            choices: ["Intern", "Engineer"],
+          }, ])
           .then((data) => {
             //Declaring role chosen in previous prompt in order to display the correct final prompt
             let role = data.role;
             inquirer
-              .prompt([
-                {
+              .prompt([{
                   type: "input",
                   name: "name",
                   message: "Please enter Employee NAME:",
@@ -182,7 +176,6 @@ function writeHTMLCards(employee, i, array) {
     bodyHTML += `</div>
       <div class="row my-4 justify-content-center">\n`;
   }
-
   //Different HTML based on the role of the employee
   if (employee.getRole() === "Manager") {
     bodyHTML += `
@@ -214,27 +207,19 @@ function writeHTMLCards(employee, i, array) {
     bodyHTML += `
       <div class="col-3">
       <div class="card">
-        <div class="card-header">Engineer</div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Name: ${employee.getName()}</li>
-          <li class="list-group-item">ID #: ${employee.getId()}</li>
-          <li class="list-group-item">Email: ${employee.getEmail()}</li>
-          <li class="list-group-item">GitHub: ${employee.getGithub()}</li>
-        </ul>
-
         <div class="card-header">Engineer<br><span>${employee.getName()}</span></div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">ID #: ${employee.getId()}</li>
           <li class="list-group-item">Email: ${employee.getEmail()}</li>
           <li class="list-group-item">GitHub: ${employee.getGithub()}</li>
         </ul>
-
       </div>
     </div>\n`;
   }
 }
 
 //Initialization
+console.log("**************************************\n");
 console.log("Welcome to the Team Profile Generator!");
 console.log("**************************************\n");
 console.log("Let's start with the Team Manager.\n");

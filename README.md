@@ -15,7 +15,7 @@
 ## Installation
   Clone repo, run "npm install" from the root folder in your terminal. Start app from root folder of your local repo clone in Terminal (bash/zsh) by entering "node index.js"
 ## Usage
-  
+  Follow prompts...final team profile html generated when "no" is selected when prompted for another employee.
 ## Contributing
   Feel free to create your own branch and send commits for my review. If I like them, I'll incorporate.
 ## License
@@ -23,8 +23,8 @@
 ## Tests
   Run "npm run test" in Terminal. Ensure you are in the root folder of the cloned repo.
 ## Demo
-  (link to video)
-  (animated gif)
+- Video link:    
+- ![animated gif demo](./assets/demo.gif)
 
 ## Questions
   Any Questions? Please contact me at one of the following for more information:
